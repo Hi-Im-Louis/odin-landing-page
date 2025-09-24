@@ -1,7 +1,7 @@
 /* Outline for developing*/
-* {
+/* * {
   outline: 2px solid red;
-}
+} */
 
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
@@ -68,9 +68,9 @@ a {
 .section-one-content {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 
   gap: 48px;
-  align-items: center;
 
   margin: 100px 0;
 }
@@ -113,9 +113,142 @@ a {
   vertical-align: center;
 }
 
-button {
+.s1-button {
   background-color: #3882f6;
   color: #f9faf8;
-  padding: 8px 24px;
+  padding: 8px 32px;
   border-radius: 10px;
+  font-size: 18px;
+  font-weight: 900;
+  border: 0;
+}
+
+/* SECTION TWO */
+
+.section-two-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  margin-bottom: 100px;
+}
+
+.s2-cards {
+  display: flex;
+  gap: 50px;
+}
+
+.s2-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 160px;
+}
+
+.s2-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+}
+
+.box {
+  height: 160px;
+  width: 160px;
+  border: 4px solid #3882f6;
+  border-radius: 15px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-desc {
+  text-align: center;
+  font-size: 18px;
+  color: #6e737d;
+}
+
+/* SECTION THREE  */
+
+.section-three {
+  background-color: #e5e7eb;
+}
+
+.section-three-content {
+  margin: 100px 0 80px 0;
+}
+
+.quote-text {
+  color: #6e737d;
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+
+.quote-author {
+  text-align: right;
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+/* SECTION FOUR  */
+
+.section-four-content {
+  margin: 100px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 100px;
+  gap: 150px;
+  background-color: #3882f6;
+  border-radius: 10px;
+}
+
+.s4-text {
+  margin: 0;
+  padding: 0;
+}
+
+.s4-text-title {
+  font-size: 24px;
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+  color: #f9faf8;
+}
+
+.s4-text-desc {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 0;
+  padding: 0;
+}
+
+.s4-button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  padding: 8px 32px;
+  border-radius: 10px;
+  border: 2px solid #f9faf8;
+  font-size: 18px;
+
+  font-weight: 900;
+}
+
+/* FOOTER  */
+
+.footer {
+  background-color: #1f2937;
+  margin: 2;
+}
+
+.footer-text {
+  color: #e5e7eb;
+  text-align: center;
+  margin: 0;
+  padding: 32px;
+  font: 18px;
 }
